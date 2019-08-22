@@ -49,6 +49,38 @@ int main()
     cout << m << endl;
     cout << n << endl;
     
+    //CONDITIONALS
+    cout << "CONDITIONALS" << endl;
+    
+    int baon = 150;
+    if (baon >=200){ //200 up
+        cout << "Papasok" << endl;
+    }
+    else if (baon >= 100){
+        cout << "Papasok pero magkacutting" << endl;
+    } 
+    else{
+        cout << "Tambay" << endl;
+    
+    }
+    int choice = 3;
+    switch(choice){
+        case 1:
+            cout << "Hello" << endl;
+            break;
+        case 2:
+            cout << "Love" << endl;
+            break;
+        case 3:
+            cout << "Goodbye" << endl;
+            break;
+        case 4:
+            cout << "Red Horse" << endl;
+            break;
+        default: cout << "Ngeks" << endl;
+        
+    }
+    
     
     return 0;
 }
